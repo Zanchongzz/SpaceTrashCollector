@@ -1,15 +1,10 @@
 🚀 Space Trash Collector – Phi Thuyền Thu Rác Vũ Trụ
-
+   <p align="center">
+     <img src="docs/banner.png" alt="Space Trash Collector" width="100%">
+   </p>
 Game bắn máy bay 2D (Space Shooter) làm bằng Unity, ngôn ngữ C#. Người chơi lái phi thuyền phá thiên thạch, thu gom rác vũ trụ rơi ra để nạp năng lượng và tung đòn tấn công đặc biệt.
 
 Đồ án môn Đồ án tương tác đối tượng trong môi trường ảo
-
-	
-Sinh viên thực hiện	Họ và tên
-Mã sinh viên	MSSV
-Lớp	Lớp
-Giảng viên hướng dẫn	Tên giảng viên
-<!-- ## Hình ảnh minh họa Chụp ảnh game, bỏ vào thư mục docs/ rồi bỏ dấu comment các dòng dưới: ![Menu](docs/menu.png) ![Chọn phi thuyền](docs/chon-tau.png) ![Trong game](docs/ingame.png) ![Game Over](docs/gameover.png) -->
 🎮 Cách chơi
 Phím	Chức năng
 W A S D hoặc ↑ ← ↓ →	Di chuyển phi thuyền
@@ -91,7 +86,7 @@ Chỉnh dữ liệu game: mở Assets/Resources/GameCatalog.asset trong Unity. T
 Font: Exo 2 – Google Fonts (giấy phép OFL)
 Hình ảnh: logo, nút, bản đồ, phi thuyền, đạn, thiên thạch, rác được tạo bằng ChatGPT; một số hình mặc định từ gói Space Shooter Redux của Kenney (CC0)
 Âm thanh: hiệu ứng từ gói của Kenney (CC0) và Pixabay
-Nhạc nền: điền tên bài – tác giả – nguồn
+Nhạc nền: lấy nguồn trên web
 📝 Ghi chú
 Công tắc Toàn màn hình chỉ có tác dụng khi chơi bản build (.exe), không đổi gì trong Unity Editor.
 Dữ liệu người chơi (tên, điểm cao, bảng xếp hạng, cài đặt âm lượng) lưu bằng PlayerPrefs trên máy.
