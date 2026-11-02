@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eabea6f0d10517941967fd146b067960, type: 3}
+  m_Name: GameCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::GameCatalog
+  ships:
+  - name: "B\u0102NG GI\xC1"
+    description: "Tia b\u0103ng s\u1EAFc l\u1EB9m, d\u1EC5 l\xE0m quen."
+    ship: {fileID: -3843073467291974189, guid: 7edef6ae4fbda6f45a84b9994cd27513, type: 3}
+    bullet: {fileID: -4191703537200471023, guid: 43a0db5214aa75c48be5310e99197d39, type: 3}
+    fireRate: 0.25
+  - name: "B\xD3NG \u0110\xCAM"
+    description: "Xung h\u01B0 kh\xF4ng xuy\xEAn th\u1EA5u, nh\u1ECBp b\u1EAFn nhanh."
+    ship: {fileID: -8659665681963133080, guid: 07b5929401ee480419b8555de6caa6ca, type: 3}
+    bullet: {fileID: -7272314311772439271, guid: b12a91c91d206e044b099bf02b726fc7, type: 3}
+    fireRate: 0.2
+  - name: "\u0110\u1ED8C D\u01AF\u1EE2C"
+    description: "N\u1ECDc \u0111\u1ED9c \u0103n m\xF2n, b\u1EAFn \u0111\u1EC1u tay."
+    ship: {fileID: -4455094021573998592, guid: 7aa1486a8a156004da73a036d89bd3ba, type: 3}
+    bullet: {fileID: -6338758342250968383, guid: 8c0a71ad5f2673c4593a16c0e886795d, type: 3}
+    fireRate: 0.24
+  - name: "HO\xC0NG KIM"
+    description: "Tia ho\xE0ng gia m\u1EA1nh m\u1EBD, nh\u1ECBp b\u1EAFn v\u1EEBa ph\u1EA3i."
+    ship: {fileID: 3455017625944021815, guid: 4a9cfc86a85d83944963cb696f125d8c, type: 3}
+    bullet: {fileID: -2848281463828427627, guid: 74bacf53d501796418948a4eb6df0624, type: 3}
+    fireRate: 0.28
+  - name: "PH\u01AF\u1EE2NG HO\xC0NG"
+    description: "L\u1EEDa thi\xEAu \u0111\u1ED1t, t\u1ED1c \u0111\u1ED9 b\u1EAFn cao nh\u1EA5t."
+    ship: {fileID: 6835647575965731079, guid: 31617e128bf87e1419e37ec2da1a1f44, type: 3}
+    bullet: {fileID: 6754585259896727500, guid: 6b61dc29f902f2941906b842bc8d511a, type: 3}
+    fireRate: 0.16
+  maps:
+  - name: "Tinh V\xE2n T\xEDm"
+    background: {fileID: 3468244779728606172, guid: dc01e5d8828a2e7489eb2ac3b1d705d2, type: 3}
+  - name: "V\xE0nh \u0110ai Thi\xEAn Th\u1EA1ch"
+    background: {fileID: -1046444227985733684, guid: 1a54d259f5877c449a6d9e30858eb2da, type: 3}
+  - name: "H\xE0nh Tinh B\u0103ng"
+    background: {fileID: -5989462958255894664, guid: 66ba4d78dc8a4e84d8a50c6c7972ab11, type: 3}
+  - name: "V\xF9ng Dung Nham"
+    background: {fileID: -6188280680563675295, guid: 9327b0b4071150d449f0aa4e61cd6a36, type: 3}
+  - name: "B\xE3i R\xE1c V\u0169 Tr\u1EE5"
+    background: {fileID: -5079673169257025244, guid: f2416cac2dcbea44d9c726752ddb8085, type: 3}
+  asteroids:
+  - name: "\u0110\xE1 Th\u01B0\u1EDDng"
+    sprite: {fileID: 6217170682839545679, guid: ec6ee65e24c642844b03b99b5b2d0377, type: 3}
+    hp: 1
+    score: 10
+    speed: 2
+    size: 1.2
+    explosionColor: {r: 1, g: 0.6, b: 0.25, a: 1}
+    trashIndex: 0
+    trashChance: 0.6
+    trashCount: 1
+    weight: 3
+  - name: "B\u0103ng Gi\xE1"
+    sprite: {fileID: 5550436294955990506, guid: 080806d412979a243ac5c6c145268ca8, type: 3}
+    hp: 1
+    score: 15
+    speed: 2.4
+    size: 1.1
+    explosionColor: {r: 0.5, g: 0.9, b: 1, a: 1}
+    trashIndex: 1
+    trashChance: 0.6
+    trashCount: 1
+    weight: 2
+  - name: Dung Nham
+    sprite: {fileID: 1999939413678033809, guid: 47b332b9af7dcc148b9d7a52c8b2d600, type: 3}
+    hp: 2
+    score: 25
+    speed: 1.8
+    size: 1.4
+    explosionColor: {r: 1, g: 0.4, b: 0.1, a: 1}
+    trashIndex: 2
+    trashChance: 0.65
+    trashCount: 1
+    weight: 2
+  - name: "Kim Lo\u1EA1i"
+    sprite: {fileID: -1334277614019358733, guid: dab5ab46069e6014a93ce8b194ebe80c, type: 3}
+    hp: 3
+    score: 35
+    speed: 1.5
+    size: 1.6
+    explosionColor: {r: 0.7, g: 0.8, b: 1, a: 1}
+    trashIndex: 3
+    trashChance: 0.7
+    trashCount: 2
+    weight: 1.5
+  - name: "Ph\xF3ng X\u1EA1"
+    sprite: {fileID: 7273997865624103047, guid: 76ff300dfece7634796490dfb7dbbe04, type: 3}
+    hp: 2
+    score: 30
+    speed: 2.2
+    size: 1.3
+    explosionColor: {r: 0.4, g: 1, b: 0.3, a: 1}
+    trashIndex: 4
+    trashChance: 0.7
+    trashCount: 1
+    weight: 1.5
+  - name: "Pha L\xEA"
+    sprite: {fileID: -1391256000631339850, guid: 0c9eb32d390d9ae49b110ebc46299d77, type: 3}
+    hp: 1
+    score: 50
+    speed: 3
+    size: 1
+    explosionColor: {r: 1, g: 0.5, b: 1, a: 1}
+    trashIndex: 5
+    trashChance: 1
+    trashCount: 1
+    weight: 0.7
+  trashes:
+  - name: "M\u1EA3nh \u0110\xE1"
+    sprite: {fileID: 3152632043030853285, guid: 4b8f090cf85121f4a8e5b28dead4fbe7, type: 3}
+    energy: 8
+    size: 0.5
+  - name: "Tinh Th\u1EC3 B\u0103ng"
+    sprite: {fileID: -2954079409500816850, guid: 45f00124699452c4cbaafb2c86ceb3d2, type: 3}
+    energy: 12
+    size: 0.5
+  - name: Than Dung Nham
+    sprite: {fileID: -85361852778207170, guid: de10207e459f57e4b9a8cf30acc611eb, type: 3}
+    energy: 12
+    size: 0.5
+  - name: "Ph\u1EBF Li\u1EC7u Kim Lo\u1EA1i"
+    sprite: {fileID: 8540681751528610317, guid: d0ce4d0c58b29064abc2053184b7b3c0, type: 3}
+    energy: 15
+    size: 0.55
+  - name: "L\xF5i Ph\xF3ng X\u1EA1"
+    sprite: {fileID: -4248866894414314523, guid: 5b311552889f68648b382c40418dafd9, type: 3}
+    energy: 18
+    size: 0.5
+  - name: "\u0110\xE1 Qu\xFD"
+    sprite: {fileID: -986007278089884, guid: cd620233a3864e84f922556ea67b68f1, type: 3}
+    energy: 30
+    size: 0.5

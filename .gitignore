@@ -1,0 +1,43 @@
+# Unity tự tạo, không đưa lên
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emory[Cc]aptures/
+/[Rr]ecordings/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# File build và đóng gói
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics, hệ điều hành
+sysinfo.txt
+crashlytics-build.properties
+.DS_Store
+Thumbs.db
+Desktop.ini
